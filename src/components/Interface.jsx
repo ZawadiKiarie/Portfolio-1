@@ -187,7 +187,7 @@ export const Interface = () => {
             <h1 className="contact__name">{config.contact.name}</h1>
             <p className="contact__address">{config.contact.address}</p>
             <div className="contact__socials">
-              <a href="config.contact.socials.linkedin" target="_blank">
+              <a href={config.contact.socials.linkedin} target="_blank">
                 <img
                   className="contact__socials__icon"
                   src="icons/linkedin.png"
