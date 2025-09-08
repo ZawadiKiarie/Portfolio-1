@@ -21,7 +21,7 @@ import Star from "./Star";
 import Macbook from "./Macbook";
 import { PalmTree } from "./PalmTree";
 import { config } from "../config";
-import Bookcase from "./bookcase";
+import { BookCase } from "./Bookcase";
 import { CouchSmall } from "./CouchSmall";
 import { Lamp } from "./Lamp";
 import { ComputerScreen } from "./ComputerScreen";
@@ -182,7 +182,7 @@ export const Experience = () => {
             <SectionTitle position-z={1.55} rotation-y={Math.PI / 6}>
               SKILLS
             </SectionTitle>
-            <Bookcase position-z={-2} />
+            <BookCase position-z={-2} />
             <CouchSmall
               position-x={-0.2}
               rotation-y={Math.PI / 3}
