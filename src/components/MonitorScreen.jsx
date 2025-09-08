@@ -9,7 +9,7 @@ export const MonitorScreen = ({ ...props }) => {
   return (
     <group {...props}>
       <mesh>
-        <planeGeometry args={[1.14, 0.69]} />
+        <planeGeometry args={[1.14, 0.699]} />
         <meshBasicMaterial map={projectTexture} />
       </mesh>
     </group>
