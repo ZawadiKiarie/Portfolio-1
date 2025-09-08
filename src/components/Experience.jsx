@@ -246,7 +246,7 @@ export const Experience = () => {
               <MonitorScreen
                 position-z={-1.1}
                 position-y={1.515}
-                position-x={0.12}
+                position-x={isMobile ? 0.12 : 0.11}
                 rotation-x={-0.18}
                 rotation-z={0.009}
               />
