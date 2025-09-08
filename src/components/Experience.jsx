@@ -65,7 +65,7 @@ export const Experience = () => {
     //Change distortion of sphere
     distortMaterial.current.distort = THREE.MathUtils.lerp(
       distortMaterial.current.distort,
-      hovered.current ? 0.6 : 0.3,
+      hovered.current ? 0.6 : 0.4,
       hovered.current ? 0.05 : 0.01
     );
 
@@ -199,7 +199,7 @@ export const Experience = () => {
             <MeshDistortMaterial
               ref={distortMaterial}
               speed={5}
-              opacity={0.8}
+              opacity={0.7}
               transparent
               distort={1}
             >
