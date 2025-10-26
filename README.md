@@ -7,3 +7,7 @@ It also marks one of my first projects created using three.js ad react three fib
 I loved every process of creating this project and there are many more like this to come in the future!!!!
 
 [View my portfolio](https://portfolio-1-rho-ashy.vercel.app/)
+
+## Credits & Acknowledgements
+
+This project was inspired by a tutorial by [Wawa Sensei](https://wawasensei.dev/)
