@@ -8,9 +8,7 @@ import { useFrame } from "@react-three/fiber";
 
 export default function Star(props) {
   const group = useRef();
-  const { nodes, materials } = useGLTF(
-    "https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/star/model.gltf"
-  );
+  const { nodes, materials } = useGLTF("/models/Star.gltf");
   useFrame(() => {
     group.current.rotation.y += 0.06;
   });

@@ -31,6 +31,7 @@ import { Mailbox } from "./Mailbox";
 import { Pigeon } from "./Pigeon";
 import { MonitorScreen } from "./MonitorScreen";
 import { useMobile } from "../hooks/useMobile";
+import { MacBookPro } from "./MacBookPro";
 
 const SECTIONS_DISTANCE = 10;
 
@@ -120,11 +121,18 @@ export const Experience = () => {
           {/* <Ruby position-y={1.95} position-x={0.05} scale={0.15} /> */}
           <Star position-z={isMobile ? -5 : 0} position-y={2.2} scale={0.3} />
           <Float>
-            <Macbook
+            {/* <Macbook
               scale={isMobile ? 0.2 : 0.3}
               position-x={isMobile ? -0.5 : -1.6}
               position-y={isMobile ? 0.7 : 0.5}
               position-z={isMobile ? -1.5 : 0}
+              rotation-y={Math.PI / 4}
+            /> */}
+            <MacBookPro
+              position-x={isMobile ? -0.5 : -1}
+              position-y={isMobile ? 1 : 0.5}
+              position-z={isMobile ? -2 : 0}
+              scale={0.3}
               rotation-y={Math.PI / 4}
             />
           </Float>
